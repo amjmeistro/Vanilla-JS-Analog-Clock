@@ -14,6 +14,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 .clock-face {
   position: relative;
   width: 300px;
@@ -21,6 +22,7 @@ body {
   border: 5px solid white;
   border-radius: 50%;
 }
+
 .dot {
   position: absolute;
   width: 10px;
@@ -30,6 +32,7 @@ body {
   top: 148;
   left: 145;
 }
+
 .hand {
   width: 50%;
   background: white;
@@ -39,22 +42,26 @@ body {
   transform: rotate(90deg);
   border-radius: 10%;
 }
+
 .transition {
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.15, 1.67, 0.52, 1.02);
 }
+
 .hour-hand {
   width: 30%;
   height: 5px;
   top: 149;
   left: 60;
 }
+
 .min-hand {
   width: 48%;
   height: 3px;
   top: 150;
   left: 6;
 }
+
 .sec-hand {
   width: 49%;
   height: 1px;
